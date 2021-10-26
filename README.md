@@ -8,8 +8,8 @@ You need to create a wonderful French Apple Cake for the your best friend. <br>
 
 What you need to make a cake : 
 
-* Dairy Product (like milk, butter) --> Must respect the procol 
-* Fruit Product (like Apple) --> Must respect the procol 
+* Dairy Product (like milk, butter) --> Must respect the protocol
+* Fruit Product (like Apple) --> Must respect the protocol 
 * Other product (like eggs, sugar, flour, extract vanillia)
 * Cooking Tools (oven, bowl) --> Array 
 
