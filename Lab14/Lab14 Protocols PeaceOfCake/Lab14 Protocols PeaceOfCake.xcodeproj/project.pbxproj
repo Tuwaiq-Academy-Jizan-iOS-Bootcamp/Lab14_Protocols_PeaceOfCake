@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D40E2A7272868D600A29761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40E2A6272868D600A29761 /* AppDelegate.swift */; };
+		2D40E2A9272868D600A29761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40E2A8272868D600A29761 /* SceneDelegate.swift */; };
+		2D40E2AB272868D600A29761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40E2AA272868D600A29761 /* ViewController.swift */; };
+		2D40E2AE272868D600A29761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D40E2AC272868D600A29761 /* Main.storyboard */; };
+		2D40E2B0272868D800A29761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D40E2AF272868D800A29761 /* Assets.xcassets */; };
+		2D40E2B3272868D800A29761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D40E2B1272868D800A29761 /* LaunchScreen.storyboard */; };
+		2D40E2BE272868D800A29761 /* Lab14_Protocols_PeaceOfCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40E2BD272868D800A29761 /* Lab14_Protocols_PeaceOfCakeTests.swift */; };
+		2D40E2C8272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40E2C7272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITests.swift */; };
+		2D40E2CA272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40E2C9272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D40E2BA272868D800A29761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D40E29B272868D600A29761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D40E2A2272868D600A29761;
+			remoteInfo = "Lab14 Protocols PeaceOfCake";
+		};
+		2D40E2C4272868D800A29761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D40E29B272868D600A29761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D40E2A2272868D600A29761;
+			remoteInfo = "Lab14 Protocols PeaceOfCake";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D40E2A3272868D600A29761 /* Lab14 Protocols PeaceOfCake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab14 Protocols PeaceOfCake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D40E2A6272868D600A29761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D40E2A8272868D600A29761 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D40E2AA272868D600A29761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D40E2AD272868D600A29761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D40E2AF272868D800A29761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D40E2B2272868D800A29761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D40E2B4272868D800A29761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D40E2B9272868D800A29761 /* Lab14 Protocols PeaceOfCakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab14 Protocols PeaceOfCakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D40E2BD272868D800A29761 /* Lab14_Protocols_PeaceOfCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab14_Protocols_PeaceOfCakeTests.swift; sourceTree = "<group>"; };
+		2D40E2C3272868D800A29761 /* Lab14 Protocols PeaceOfCakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab14 Protocols PeaceOfCakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D40E2C7272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab14_Protocols_PeaceOfCakeUITests.swift; sourceTree = "<group>"; };
+		2D40E2C9272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D40E2A0272868D600A29761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D40E2B6272868D800A29761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D40E2C0272868D800A29761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D40E29A272868D600A29761 = {
+			isa = PBXGroup;
+			children = (
+				2D40E2A5272868D600A29761 /* Lab14 Protocols PeaceOfCake */,
+				2D40E2BC272868D800A29761 /* Lab14 Protocols PeaceOfCakeTests */,
+				2D40E2C6272868D800A29761 /* Lab14 Protocols PeaceOfCakeUITests */,
+				2D40E2A4272868D600A29761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D40E2A4272868D600A29761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D40E2A3272868D600A29761 /* Lab14 Protocols PeaceOfCake.app */,
+				2D40E2B9272868D800A29761 /* Lab14 Protocols PeaceOfCakeTests.xctest */,
+				2D40E2C3272868D800A29761 /* Lab14 Protocols PeaceOfCakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D40E2A5272868D600A29761 /* Lab14 Protocols PeaceOfCake */ = {
+			isa = PBXGroup;
+			children = (
+				2D40E2A6272868D600A29761 /* AppDelegate.swift */,
+				2D40E2A8272868D600A29761 /* SceneDelegate.swift */,
+				2D40E2AA272868D600A29761 /* ViewController.swift */,
+				2D40E2AC272868D600A29761 /* Main.storyboard */,
+				2D40E2AF272868D800A29761 /* Assets.xcassets */,
+				2D40E2B1272868D800A29761 /* LaunchScreen.storyboard */,
+				2D40E2B4272868D800A29761 /* Info.plist */,
+			);
+			path = "Lab14 Protocols PeaceOfCake";
+			sourceTree = "<group>";
+		};
+		2D40E2BC272868D800A29761 /* Lab14 Protocols PeaceOfCakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D40E2BD272868D800A29761 /* Lab14_Protocols_PeaceOfCakeTests.swift */,
+			);
+			path = "Lab14 Protocols PeaceOfCakeTests";
+			sourceTree = "<group>";
+		};
+		2D40E2C6272868D800A29761 /* Lab14 Protocols PeaceOfCakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D40E2C7272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITests.swift */,
+				2D40E2C9272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */,
+			);
+			path = "Lab14 Protocols PeaceOfCakeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D40E2A2272868D600A29761 /* Lab14 Protocols PeaceOfCake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D40E2CD272868D800A29761 /* Build configuration list for PBXNativeTarget "Lab14 Protocols PeaceOfCake" */;
+			buildPhases = (
+				2D40E29F272868D600A29761 /* Sources */,
+				2D40E2A0272868D600A29761 /* Frameworks */,
+				2D40E2A1272868D600A29761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab14 Protocols PeaceOfCake";
+			productName = "Lab14 Protocols PeaceOfCake";
+			productReference = 2D40E2A3272868D600A29761 /* Lab14 Protocols PeaceOfCake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D40E2B8272868D800A29761 /* Lab14 Protocols PeaceOfCakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D40E2D0272868D800A29761 /* Build configuration list for PBXNativeTarget "Lab14 Protocols PeaceOfCakeTests" */;
+			buildPhases = (
+				2D40E2B5272868D800A29761 /* Sources */,
+				2D40E2B6272868D800A29761 /* Frameworks */,
+				2D40E2B7272868D800A29761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D40E2BB272868D800A29761 /* PBXTargetDependency */,
+			);
+			name = "Lab14 Protocols PeaceOfCakeTests";
+			productName = "Lab14 Protocols PeaceOfCakeTests";
+			productReference = 2D40E2B9272868D800A29761 /* Lab14 Protocols PeaceOfCakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D40E2C2272868D800A29761 /* Lab14 Protocols PeaceOfCakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D40E2D3272868D800A29761 /* Build configuration list for PBXNativeTarget "Lab14 Protocols PeaceOfCakeUITests" */;
+			buildPhases = (
+				2D40E2BF272868D800A29761 /* Sources */,
+				2D40E2C0272868D800A29761 /* Frameworks */,
+				2D40E2C1272868D800A29761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D40E2C5272868D800A29761 /* PBXTargetDependency */,
+			);
+			name = "Lab14 Protocols PeaceOfCakeUITests";
+			productName = "Lab14 Protocols PeaceOfCakeUITests";
+			productReference = 2D40E2C3272868D800A29761 /* Lab14 Protocols PeaceOfCakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D40E29B272868D600A29761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					2D40E2A2272868D600A29761 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2D40E2B8272868D800A29761 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 2D40E2A2272868D600A29761;
+					};
+					2D40E2C2272868D800A29761 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 2D40E2A2272868D600A29761;
+					};
+				};
+			};
+			buildConfigurationList = 2D40E29E272868D600A29761 /* Build configuration list for PBXProject "Lab14 Protocols PeaceOfCake" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D40E29A272868D600A29761;
+			productRefGroup = 2D40E2A4272868D600A29761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D40E2A2272868D600A29761 /* Lab14 Protocols PeaceOfCake */,
+				2D40E2B8272868D800A29761 /* Lab14 Protocols PeaceOfCakeTests */,
+				2D40E2C2272868D800A29761 /* Lab14 Protocols PeaceOfCakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D40E2A1272868D600A29761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D40E2B3272868D800A29761 /* LaunchScreen.storyboard in Resources */,
+				2D40E2B0272868D800A29761 /* Assets.xcassets in Resources */,
+				2D40E2AE272868D600A29761 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D40E2B7272868D800A29761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D40E2C1272868D800A29761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D40E29F272868D600A29761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D40E2AB272868D600A29761 /* ViewController.swift in Sources */,
+				2D40E2A7272868D600A29761 /* AppDelegate.swift in Sources */,
+				2D40E2A9272868D600A29761 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D40E2B5272868D800A29761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D40E2BE272868D800A29761 /* Lab14_Protocols_PeaceOfCakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D40E2BF272868D800A29761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D40E2C8272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITests.swift in Sources */,
+				2D40E2CA272868D800A29761 /* Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D40E2BB272868D800A29761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D40E2A2272868D600A29761 /* Lab14 Protocols PeaceOfCake */;
+			targetProxy = 2D40E2BA272868D800A29761 /* PBXContainerItemProxy */;
+		};
+		2D40E2C5272868D800A29761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D40E2A2272868D600A29761 /* Lab14 Protocols PeaceOfCake */;
+			targetProxy = 2D40E2C4272868D800A29761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D40E2AC272868D600A29761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D40E2AD272868D600A29761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D40E2B1272868D800A29761 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D40E2B2272868D800A29761 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D40E2CB272868D800A29761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D40E2CC272868D800A29761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D40E2CE272868D800A29761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HVZQF48D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lab14 Protocols PeaceOfCake/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.Lab14-Protocols-PeaceOfCake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D40E2CF272868D800A29761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HVZQF48D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lab14 Protocols PeaceOfCake/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.Lab14-Protocols-PeaceOfCake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D40E2D1272868D800A29761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HVZQF48D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.Lab14-Protocols-PeaceOfCakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab14 Protocols PeaceOfCake.app/Lab14 Protocols PeaceOfCake";
+			};
+			name = Debug;
+		};
+		2D40E2D2272868D800A29761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HVZQF48D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.Lab14-Protocols-PeaceOfCakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab14 Protocols PeaceOfCake.app/Lab14 Protocols PeaceOfCake";
+			};
+			name = Release;
+		};
+		2D40E2D4272868D800A29761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HVZQF48D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.Lab14-Protocols-PeaceOfCakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab14 Protocols PeaceOfCake";
+			};
+			name = Debug;
+		};
+		2D40E2D5272868D800A29761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HVZQF48D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.Lab14-Protocols-PeaceOfCakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab14 Protocols PeaceOfCake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D40E29E272868D600A29761 /* Build configuration list for PBXProject "Lab14 Protocols PeaceOfCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D40E2CB272868D800A29761 /* Debug */,
+				2D40E2CC272868D800A29761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D40E2CD272868D800A29761 /* Build configuration list for PBXNativeTarget "Lab14 Protocols PeaceOfCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D40E2CE272868D800A29761 /* Debug */,
+				2D40E2CF272868D800A29761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D40E2D0272868D800A29761 /* Build configuration list for PBXNativeTarget "Lab14 Protocols PeaceOfCakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D40E2D1272868D800A29761 /* Debug */,
+				2D40E2D2272868D800A29761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D40E2D3272868D800A29761 /* Build configuration list for PBXNativeTarget "Lab14 Protocols PeaceOfCakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D40E2D4272868D800A29761 /* Debug */,
+				2D40E2D5272868D800A29761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D40E29B272868D600A29761 /* Project object */;
+}
