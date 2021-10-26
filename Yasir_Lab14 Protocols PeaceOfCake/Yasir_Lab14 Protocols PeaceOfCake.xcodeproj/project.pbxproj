@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45EF9C0027281DBC00AB2749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EF9BFF27281DBC00AB2749 /* AppDelegate.swift */; };
+		45EF9C0227281DBC00AB2749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EF9C0127281DBC00AB2749 /* SceneDelegate.swift */; };
+		45EF9C0427281DBC00AB2749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EF9C0327281DBC00AB2749 /* ViewController.swift */; };
+		45EF9C0727281DBC00AB2749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EF9C0527281DBC00AB2749 /* Main.storyboard */; };
+		45EF9C0927281DBD00AB2749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EF9C0827281DBD00AB2749 /* Assets.xcassets */; };
+		45EF9C0C27281DBD00AB2749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EF9C0A27281DBD00AB2749 /* LaunchScreen.storyboard */; };
+		45EF9C1727281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EF9C1627281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeTests.swift */; };
+		45EF9C2127281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EF9C2027281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITests.swift */; };
+		45EF9C2327281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EF9C2227281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45EF9C1327281DBD00AB2749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45EF9BF427281DBB00AB2749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45EF9BFB27281DBC00AB2749;
+			remoteInfo = "Yasir_Lab14 Protocols PeaceOfCake";
+		};
+		45EF9C1D27281DBD00AB2749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45EF9BF427281DBB00AB2749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45EF9BFB27281DBC00AB2749;
+			remoteInfo = "Yasir_Lab14 Protocols PeaceOfCake";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45EF9BFC27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yasir_Lab14 Protocols PeaceOfCake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EF9BFF27281DBC00AB2749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45EF9C0127281DBC00AB2749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45EF9C0327281DBC00AB2749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45EF9C0627281DBC00AB2749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45EF9C0827281DBD00AB2749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45EF9C0B27281DBD00AB2749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45EF9C0D27281DBD00AB2749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EF9C1227281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yasir_Lab14 Protocols PeaceOfCakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EF9C1627281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasir_Lab14_Protocols_PeaceOfCakeTests.swift; sourceTree = "<group>"; };
+		45EF9C1C27281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yasir_Lab14 Protocols PeaceOfCakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EF9C2027281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasir_Lab14_Protocols_PeaceOfCakeUITests.swift; sourceTree = "<group>"; };
+		45EF9C2227281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasir_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45EF9BF927281DBC00AB2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EF9C0F27281DBD00AB2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EF9C1927281DBD00AB2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45EF9BF327281DBB00AB2749 = {
+			isa = PBXGroup;
+			children = (
+				45EF9BFE27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake */,
+				45EF9C1527281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeTests */,
+				45EF9C1F27281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeUITests */,
+				45EF9BFD27281DBC00AB2749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45EF9BFD27281DBC00AB2749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45EF9BFC27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake.app */,
+				45EF9C1227281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeTests.xctest */,
+				45EF9C1C27281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45EF9BFE27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake */ = {
+			isa = PBXGroup;
+			children = (
+				45EF9BFF27281DBC00AB2749 /* AppDelegate.swift */,
+				45EF9C0127281DBC00AB2749 /* SceneDelegate.swift */,
+				45EF9C0327281DBC00AB2749 /* ViewController.swift */,
+				45EF9C0527281DBC00AB2749 /* Main.storyboard */,
+				45EF9C0827281DBD00AB2749 /* Assets.xcassets */,
+				45EF9C0A27281DBD00AB2749 /* LaunchScreen.storyboard */,
+				45EF9C0D27281DBD00AB2749 /* Info.plist */,
+			);
+			path = "Yasir_Lab14 Protocols PeaceOfCake";
+			sourceTree = "<group>";
+		};
+		45EF9C1527281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				45EF9C1627281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeTests.swift */,
+			);
+			path = "Yasir_Lab14 Protocols PeaceOfCakeTests";
+			sourceTree = "<group>";
+		};
+		45EF9C1F27281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45EF9C2027281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITests.swift */,
+				45EF9C2227281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */,
+			);
+			path = "Yasir_Lab14 Protocols PeaceOfCakeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45EF9BFB27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EF9C2627281DBD00AB2749 /* Build configuration list for PBXNativeTarget "Yasir_Lab14 Protocols PeaceOfCake" */;
+			buildPhases = (
+				45EF9BF827281DBC00AB2749 /* Sources */,
+				45EF9BF927281DBC00AB2749 /* Frameworks */,
+				45EF9BFA27281DBC00AB2749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yasir_Lab14 Protocols PeaceOfCake";
+			productName = "Yasir_Lab14 Protocols PeaceOfCake";
+			productReference = 45EF9BFC27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45EF9C1127281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EF9C2927281DBD00AB2749 /* Build configuration list for PBXNativeTarget "Yasir_Lab14 Protocols PeaceOfCakeTests" */;
+			buildPhases = (
+				45EF9C0E27281DBD00AB2749 /* Sources */,
+				45EF9C0F27281DBD00AB2749 /* Frameworks */,
+				45EF9C1027281DBD00AB2749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45EF9C1427281DBD00AB2749 /* PBXTargetDependency */,
+			);
+			name = "Yasir_Lab14 Protocols PeaceOfCakeTests";
+			productName = "Yasir_Lab14 Protocols PeaceOfCakeTests";
+			productReference = 45EF9C1227281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45EF9C1B27281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EF9C2C27281DBD00AB2749 /* Build configuration list for PBXNativeTarget "Yasir_Lab14 Protocols PeaceOfCakeUITests" */;
+			buildPhases = (
+				45EF9C1827281DBD00AB2749 /* Sources */,
+				45EF9C1927281DBD00AB2749 /* Frameworks */,
+				45EF9C1A27281DBD00AB2749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45EF9C1E27281DBD00AB2749 /* PBXTargetDependency */,
+			);
+			name = "Yasir_Lab14 Protocols PeaceOfCakeUITests";
+			productName = "Yasir_Lab14 Protocols PeaceOfCakeUITests";
+			productReference = 45EF9C1C27281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45EF9BF427281DBB00AB2749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					45EF9BFB27281DBC00AB2749 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					45EF9C1127281DBD00AB2749 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 45EF9BFB27281DBC00AB2749;
+					};
+					45EF9C1B27281DBD00AB2749 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 45EF9BFB27281DBC00AB2749;
+					};
+				};
+			};
+			buildConfigurationList = 45EF9BF727281DBB00AB2749 /* Build configuration list for PBXProject "Yasir_Lab14 Protocols PeaceOfCake" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45EF9BF327281DBB00AB2749;
+			productRefGroup = 45EF9BFD27281DBC00AB2749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45EF9BFB27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake */,
+				45EF9C1127281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeTests */,
+				45EF9C1B27281DBD00AB2749 /* Yasir_Lab14 Protocols PeaceOfCakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45EF9BFA27281DBC00AB2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EF9C0C27281DBD00AB2749 /* LaunchScreen.storyboard in Resources */,
+				45EF9C0927281DBD00AB2749 /* Assets.xcassets in Resources */,
+				45EF9C0727281DBC00AB2749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EF9C1027281DBD00AB2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EF9C1A27281DBD00AB2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45EF9BF827281DBC00AB2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EF9C0427281DBC00AB2749 /* ViewController.swift in Sources */,
+				45EF9C0027281DBC00AB2749 /* AppDelegate.swift in Sources */,
+				45EF9C0227281DBC00AB2749 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EF9C0E27281DBD00AB2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EF9C1727281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EF9C1827281DBD00AB2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EF9C2327281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */,
+				45EF9C2127281DBD00AB2749 /* Yasir_Lab14_Protocols_PeaceOfCakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45EF9C1427281DBD00AB2749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45EF9BFB27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake */;
+			targetProxy = 45EF9C1327281DBD00AB2749 /* PBXContainerItemProxy */;
+		};
+		45EF9C1E27281DBD00AB2749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45EF9BFB27281DBC00AB2749 /* Yasir_Lab14 Protocols PeaceOfCake */;
+			targetProxy = 45EF9C1D27281DBD00AB2749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45EF9C0527281DBC00AB2749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45EF9C0627281DBC00AB2749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45EF9C0A27281DBD00AB2749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45EF9C0B27281DBD00AB2749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45EF9C2427281DBD00AB2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45EF9C2527281DBD00AB2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45EF9C2727281DBD00AB2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yasir_Lab14 Protocols PeaceOfCake/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Yasir-Lab14-Protocols-PeaceOfCake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45EF9C2827281DBD00AB2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yasir_Lab14 Protocols PeaceOfCake/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Yasir-Lab14-Protocols-PeaceOfCake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45EF9C2A27281DBD00AB2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Yasir-Lab14-Protocols-PeaceOfCakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yasir_Lab14 Protocols PeaceOfCake.app/Yasir_Lab14 Protocols PeaceOfCake";
+			};
+			name = Debug;
+		};
+		45EF9C2B27281DBD00AB2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Yasir-Lab14-Protocols-PeaceOfCakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yasir_Lab14 Protocols PeaceOfCake.app/Yasir_Lab14 Protocols PeaceOfCake";
+			};
+			name = Release;
+		};
+		45EF9C2D27281DBD00AB2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Yasir-Lab14-Protocols-PeaceOfCakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yasir_Lab14 Protocols PeaceOfCake";
+			};
+			name = Debug;
+		};
+		45EF9C2E27281DBD00AB2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Yasir-Lab14-Protocols-PeaceOfCakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yasir_Lab14 Protocols PeaceOfCake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45EF9BF727281DBB00AB2749 /* Build configuration list for PBXProject "Yasir_Lab14 Protocols PeaceOfCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EF9C2427281DBD00AB2749 /* Debug */,
+				45EF9C2527281DBD00AB2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EF9C2627281DBD00AB2749 /* Build configuration list for PBXNativeTarget "Yasir_Lab14 Protocols PeaceOfCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EF9C2727281DBD00AB2749 /* Debug */,
+				45EF9C2827281DBD00AB2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EF9C2927281DBD00AB2749 /* Build configuration list for PBXNativeTarget "Yasir_Lab14 Protocols PeaceOfCakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EF9C2A27281DBD00AB2749 /* Debug */,
+				45EF9C2B27281DBD00AB2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EF9C2C27281DBD00AB2749 /* Build configuration list for PBXNativeTarget "Yasir_Lab14 Protocols PeaceOfCakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EF9C2D27281DBD00AB2749 /* Debug */,
+				45EF9C2E27281DBD00AB2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45EF9BF427281DBB00AB2749 /* Project object */;
+}
