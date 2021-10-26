@@ -7,6 +7,14 @@
 
 import UIKit
 
+protocol Ingredient {
+    
+    
+    
+    
+}
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -17,3 +25,12 @@ class ViewController: UIViewController {
 
 }
 
+class Apple: Ingredient {
+    
+    
+}
+
+struct Sugar: Ingredient {
+    
+    
+}
