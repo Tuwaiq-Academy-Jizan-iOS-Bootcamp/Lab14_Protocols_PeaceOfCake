@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol Ingredient {
+protocol Ingredients {
     
     
     
@@ -25,12 +25,12 @@ class ViewController: UIViewController {
 
 }
 
-class Apple: Ingredient {
+class Apple: Ingredients {
     
     
 }
 
-struct Sugar: Ingredient {
+struct Sugar: Ingredients {
     
     
 }
