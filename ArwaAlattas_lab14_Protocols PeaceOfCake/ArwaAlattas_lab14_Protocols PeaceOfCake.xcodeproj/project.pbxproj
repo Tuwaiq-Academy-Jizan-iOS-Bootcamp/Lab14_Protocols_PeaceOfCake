@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB809E32728487C001BF012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB809E22728487C001BF012 /* AppDelegate.swift */; };
+		AFB809E52728487C001BF012 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB809E42728487C001BF012 /* SceneDelegate.swift */; };
+		AFB809E72728487C001BF012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB809E62728487C001BF012 /* ViewController.swift */; };
+		AFB809EA2728487C001BF012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB809E82728487C001BF012 /* Main.storyboard */; };
+		AFB809EC2728487E001BF012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB809EB2728487E001BF012 /* Assets.xcassets */; };
+		AFB809EF2728487E001BF012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB809ED2728487E001BF012 /* LaunchScreen.storyboard */; };
+		AFB809FA2728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB809F92728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeTests.swift */; };
+		AFB80A042728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB80A032728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITests.swift */; };
+		AFB80A062728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB80A052728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB809F62728487F001BF012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB809D72728487C001BF012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB809DE2728487C001BF012;
+			remoteInfo = "ArwaAlattas_lab14_Protocols PeaceOfCake";
+		};
+		AFB80A002728487F001BF012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB809D72728487C001BF012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB809DE2728487C001BF012;
+			remoteInfo = "ArwaAlattas_lab14_Protocols PeaceOfCake";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB809DF2728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArwaAlattas_lab14_Protocols PeaceOfCake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB809E22728487C001BF012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFB809E42728487C001BF012 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFB809E62728487C001BF012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFB809E92728487C001BF012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFB809EB2728487E001BF012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB809EE2728487E001BF012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFB809F02728487E001BF012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB809F52728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArwaAlattas_lab14_Protocols PeaceOfCakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB809F92728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab14_Protocols_PeaceOfCakeTests.swift; sourceTree = "<group>"; };
+		AFB809FF2728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArwaAlattas_lab14_Protocols PeaceOfCakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB80A032728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab14_Protocols_PeaceOfCakeUITests.swift; sourceTree = "<group>"; };
+		AFB80A052728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB809DC2728487C001BF012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB809F22728487F001BF012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB809FC2728487F001BF012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB809D62728487C001BF012 = {
+			isa = PBXGroup;
+			children = (
+				AFB809E12728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake */,
+				AFB809F82728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeTests */,
+				AFB80A022728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeUITests */,
+				AFB809E02728487C001BF012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB809E02728487C001BF012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB809DF2728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake.app */,
+				AFB809F52728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeTests.xctest */,
+				AFB809FF2728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB809E12728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake */ = {
+			isa = PBXGroup;
+			children = (
+				AFB809E22728487C001BF012 /* AppDelegate.swift */,
+				AFB809E42728487C001BF012 /* SceneDelegate.swift */,
+				AFB809E62728487C001BF012 /* ViewController.swift */,
+				AFB809E82728487C001BF012 /* Main.storyboard */,
+				AFB809EB2728487E001BF012 /* Assets.xcassets */,
+				AFB809ED2728487E001BF012 /* LaunchScreen.storyboard */,
+				AFB809F02728487E001BF012 /* Info.plist */,
+			);
+			path = "ArwaAlattas_lab14_Protocols PeaceOfCake";
+			sourceTree = "<group>";
+		};
+		AFB809F82728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB809F92728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeTests.swift */,
+			);
+			path = "ArwaAlattas_lab14_Protocols PeaceOfCakeTests";
+			sourceTree = "<group>";
+		};
+		AFB80A022728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB80A032728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITests.swift */,
+				AFB80A052728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */,
+			);
+			path = "ArwaAlattas_lab14_Protocols PeaceOfCakeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB809DE2728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB80A092728487F001BF012 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab14_Protocols PeaceOfCake" */;
+			buildPhases = (
+				AFB809DB2728487C001BF012 /* Sources */,
+				AFB809DC2728487C001BF012 /* Frameworks */,
+				AFB809DD2728487C001BF012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArwaAlattas_lab14_Protocols PeaceOfCake";
+			productName = "ArwaAlattas_lab14_Protocols PeaceOfCake";
+			productReference = AFB809DF2728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB809F42728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB80A0C2728487F001BF012 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab14_Protocols PeaceOfCakeTests" */;
+			buildPhases = (
+				AFB809F12728487F001BF012 /* Sources */,
+				AFB809F22728487F001BF012 /* Frameworks */,
+				AFB809F32728487F001BF012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB809F72728487F001BF012 /* PBXTargetDependency */,
+			);
+			name = "ArwaAlattas_lab14_Protocols PeaceOfCakeTests";
+			productName = "ArwaAlattas_lab14_Protocols PeaceOfCakeTests";
+			productReference = AFB809F52728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFB809FE2728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB80A0F2728487F001BF012 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab14_Protocols PeaceOfCakeUITests" */;
+			buildPhases = (
+				AFB809FB2728487F001BF012 /* Sources */,
+				AFB809FC2728487F001BF012 /* Frameworks */,
+				AFB809FD2728487F001BF012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB80A012728487F001BF012 /* PBXTargetDependency */,
+			);
+			name = "ArwaAlattas_lab14_Protocols PeaceOfCakeUITests";
+			productName = "ArwaAlattas_lab14_Protocols PeaceOfCakeUITests";
+			productReference = AFB809FF2728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB809D72728487C001BF012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AFB809DE2728487C001BF012 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AFB809F42728487F001BF012 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AFB809DE2728487C001BF012;
+					};
+					AFB809FE2728487F001BF012 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AFB809DE2728487C001BF012;
+					};
+				};
+			};
+			buildConfigurationList = AFB809DA2728487C001BF012 /* Build configuration list for PBXProject "ArwaAlattas_lab14_Protocols PeaceOfCake" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB809D62728487C001BF012;
+			productRefGroup = AFB809E02728487C001BF012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB809DE2728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake */,
+				AFB809F42728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeTests */,
+				AFB809FE2728487F001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB809DD2728487C001BF012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB809EF2728487E001BF012 /* LaunchScreen.storyboard in Resources */,
+				AFB809EC2728487E001BF012 /* Assets.xcassets in Resources */,
+				AFB809EA2728487C001BF012 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB809F32728487F001BF012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB809FD2728487F001BF012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB809DB2728487C001BF012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB809E72728487C001BF012 /* ViewController.swift in Sources */,
+				AFB809E32728487C001BF012 /* AppDelegate.swift in Sources */,
+				AFB809E52728487C001BF012 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB809F12728487F001BF012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB809FA2728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB809FB2728487F001BF012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB80A042728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITests.swift in Sources */,
+				AFB80A062728487F001BF012 /* ArwaAlattas_lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB809F72728487F001BF012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB809DE2728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake */;
+			targetProxy = AFB809F62728487F001BF012 /* PBXContainerItemProxy */;
+		};
+		AFB80A012728487F001BF012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB809DE2728487C001BF012 /* ArwaAlattas_lab14_Protocols PeaceOfCake */;
+			targetProxy = AFB80A002728487F001BF012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB809E82728487C001BF012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB809E92728487C001BF012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB809ED2728487E001BF012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB809EE2728487E001BF012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB80A072728487F001BF012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFB80A082728487F001BF012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB80A0A2728487F001BF012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ArwaAlattas_lab14_Protocols PeaceOfCake/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab14-Protocols-PeaceOfCake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB80A0B2728487F001BF012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ArwaAlattas_lab14_Protocols PeaceOfCake/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab14-Protocols-PeaceOfCake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFB80A0D2728487F001BF012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab14-Protocols-PeaceOfCakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArwaAlattas_lab14_Protocols PeaceOfCake.app/ArwaAlattas_lab14_Protocols PeaceOfCake";
+			};
+			name = Debug;
+		};
+		AFB80A0E2728487F001BF012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab14-Protocols-PeaceOfCakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArwaAlattas_lab14_Protocols PeaceOfCake.app/ArwaAlattas_lab14_Protocols PeaceOfCake";
+			};
+			name = Release;
+		};
+		AFB80A102728487F001BF012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab14-Protocols-PeaceOfCakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ArwaAlattas_lab14_Protocols PeaceOfCake";
+			};
+			name = Debug;
+		};
+		AFB80A112728487F001BF012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab14-Protocols-PeaceOfCakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ArwaAlattas_lab14_Protocols PeaceOfCake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB809DA2728487C001BF012 /* Build configuration list for PBXProject "ArwaAlattas_lab14_Protocols PeaceOfCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB80A072728487F001BF012 /* Debug */,
+				AFB80A082728487F001BF012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB80A092728487F001BF012 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab14_Protocols PeaceOfCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB80A0A2728487F001BF012 /* Debug */,
+				AFB80A0B2728487F001BF012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB80A0C2728487F001BF012 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab14_Protocols PeaceOfCakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB80A0D2728487F001BF012 /* Debug */,
+				AFB80A0E2728487F001BF012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB80A0F2728487F001BF012 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab14_Protocols PeaceOfCakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB80A102728487F001BF012 /* Debug */,
+				AFB80A112728487F001BF012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB809D72728487C001BF012 /* Project object */;
+}
