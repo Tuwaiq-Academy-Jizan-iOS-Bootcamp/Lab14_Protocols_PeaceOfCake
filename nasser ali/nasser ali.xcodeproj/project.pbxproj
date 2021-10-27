@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A1057B827281A820098419C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1057B727281A820098419C /* AppDelegate.swift */; };
-		7A1057BA27281A820098419C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1057B927281A820098419C /* SceneDelegate.swift */; };
-		7A1057BC27281A820098419C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1057BB27281A820098419C /* ViewController.swift */; };
-		7A1057BF27281A820098419C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1057BD27281A820098419C /* Main.storyboard */; };
-		7A1057C127281A830098419C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1057C027281A830098419C /* Assets.xcassets */; };
-		7A1057C427281A830098419C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1057C227281A830098419C /* LaunchScreen.storyboard */; };
-		7A1057CF27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1057CE27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.swift */; };
-		7A1057D927281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1057D827281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.swift */; };
-		7A1057DB27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1057DA27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */; };
+		7A10580A2729389E0098419C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1058092729389E0098419C /* AppDelegate.swift */; };
+		7A10580C2729389E0098419C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10580B2729389E0098419C /* SceneDelegate.swift */; };
+		7A10580E2729389E0098419C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10580D2729389E0098419C /* ViewController.swift */; };
+		7A1058112729389E0098419C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A10580F2729389E0098419C /* Main.storyboard */; };
+		7A105813272938A00098419C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A105812272938A00098419C /* Assets.xcassets */; };
+		7A105816272938A00098419C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A105814272938A00098419C /* LaunchScreen.storyboard */; };
+		7A105821272938A10098419C /* nasser_aliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A105820272938A10098419C /* nasser_aliTests.swift */; };
+		7A10582B272938A10098419C /* nasser_aliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10582A272938A10098419C /* nasser_aliUITests.swift */; };
+		7A10582D272938A10098419C /* nasser_aliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10582C272938A10098419C /* nasser_aliUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A1057CB27281A830098419C /* PBXContainerItemProxy */ = {
+		7A10581D272938A10098419C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7A1057AC27281A820098419C /* Project object */;
+			containerPortal = 7A1057FE2729389E0098419C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A1057B327281A820098419C;
-			remoteInfo = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake;
+			remoteGlobalIDString = 7A1058052729389E0098419C;
+			remoteInfo = "nasser ali";
 		};
-		7A1057D527281A830098419C /* PBXContainerItemProxy */ = {
+		7A105827272938A10098419C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7A1057AC27281A820098419C /* Project object */;
+			containerPortal = 7A1057FE2729389E0098419C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A1057B327281A820098419C;
-			remoteInfo = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake;
+			remoteGlobalIDString = 7A1058052729389E0098419C;
+			remoteInfo = "nasser ali";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A1057B427281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A1057B727281A820098419C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A1057B927281A820098419C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A1057BB27281A820098419C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A1057BE27281A820098419C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A1057C027281A830098419C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A1057C327281A830098419C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A1057C527281A830098419C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A1057CA27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A1057CE27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.swift; sourceTree = "<group>"; };
-		7A1057D427281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A1057D827281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.swift; sourceTree = "<group>"; };
-		7A1057DA27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A1058062729389E0098419C /* nasser ali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nasser ali.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1058092729389E0098419C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A10580B2729389E0098419C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A10580D2729389E0098419C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A1058102729389E0098419C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A105812272938A00098419C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A105815272938A00098419C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A105817272938A00098419C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A10581C272938A10098419C /* nasser aliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nasser aliTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A105820272938A10098419C /* nasser_aliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasser_aliTests.swift; sourceTree = "<group>"; };
+		7A105826272938A10098419C /* nasser aliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nasser aliUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A10582A272938A10098419C /* nasser_aliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasser_aliUITests.swift; sourceTree = "<group>"; };
+		7A10582C272938A10098419C /* nasser_aliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasser_aliUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A1057B127281A820098419C /* Frameworks */ = {
+		7A1058032729389E0098419C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1057C727281A830098419C /* Frameworks */ = {
+		7A105819272938A10098419C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1057D127281A830098419C /* Frameworks */ = {
+		7A105823272938A10098419C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A1057AB27281A820098419C = {
+		7A1057FD2729389E0098419C = {
 			isa = PBXGroup;
 			children = (
-				7A1057B627281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake */,
-				7A1057CD27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests */,
-				7A1057D727281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests */,
-				7A1057B527281A820098419C /* Products */,
+				7A1058082729389E0098419C /* nasser ali */,
+				7A10581F272938A10098419C /* nasser aliTests */,
+				7A105829272938A10098419C /* nasser aliUITests */,
+				7A1058072729389E0098419C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A1057B527281A820098419C /* Products */ = {
+		7A1058072729389E0098419C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A1057B427281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake.app */,
-				7A1057CA27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.xctest */,
-				7A1057D427281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.xctest */,
+				7A1058062729389E0098419C /* nasser ali.app */,
+				7A10581C272938A10098419C /* nasser aliTests.xctest */,
+				7A105826272938A10098419C /* nasser aliUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A1057B627281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake */ = {
+		7A1058082729389E0098419C /* nasser ali */ = {
 			isa = PBXGroup;
 			children = (
-				7A1057B727281A820098419C /* AppDelegate.swift */,
-				7A1057B927281A820098419C /* SceneDelegate.swift */,
-				7A1057BB27281A820098419C /* ViewController.swift */,
-				7A1057BD27281A820098419C /* Main.storyboard */,
-				7A1057C027281A830098419C /* Assets.xcassets */,
-				7A1057C227281A830098419C /* LaunchScreen.storyboard */,
-				7A1057C527281A830098419C /* Info.plist */,
+				7A1058092729389E0098419C /* AppDelegate.swift */,
+				7A10580B2729389E0098419C /* SceneDelegate.swift */,
+				7A10580D2729389E0098419C /* ViewController.swift */,
+				7A10580F2729389E0098419C /* Main.storyboard */,
+				7A105812272938A00098419C /* Assets.xcassets */,
+				7A105814272938A00098419C /* LaunchScreen.storyboard */,
+				7A105817272938A00098419C /* Info.plist */,
 			);
-			path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake;
+			path = "nasser ali";
 			sourceTree = "<group>";
 		};
-		7A1057CD27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests */ = {
+		7A10581F272938A10098419C /* nasser aliTests */ = {
 			isa = PBXGroup;
 			children = (
-				7A1057CE27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.swift */,
+				7A105820272938A10098419C /* nasser_aliTests.swift */,
 			);
-			path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests;
+			path = "nasser aliTests";
 			sourceTree = "<group>";
 		};
-		7A1057D727281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests */ = {
+		7A105829272938A10098419C /* nasser aliUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7A1057D827281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.swift */,
-				7A1057DA27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift */,
+				7A10582A272938A10098419C /* nasser_aliUITests.swift */,
+				7A10582C272938A10098419C /* nasser_aliUITestsLaunchTests.swift */,
 			);
-			path = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests;
+			path = "nasser aliUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A1057B327281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake */ = {
+		7A1058052729389E0098419C /* nasser ali */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A1057DE27281A830098419C /* Build configuration list for PBXNativeTarget "Nasser_Aseeri_Lab14_Protocols_PeaceOfCake" */;
+			buildConfigurationList = 7A105830272938A10098419C /* Build configuration list for PBXNativeTarget "nasser ali" */;
 			buildPhases = (
-				7A1057B027281A820098419C /* Sources */,
-				7A1057B127281A820098419C /* Frameworks */,
-				7A1057B227281A820098419C /* Resources */,
+				7A1058022729389E0098419C /* Sources */,
+				7A1058032729389E0098419C /* Frameworks */,
+				7A1058042729389E0098419C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake;
-			productName = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake;
-			productReference = 7A1057B427281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake.app */;
+			name = "nasser ali";
+			productName = "nasser ali";
+			productReference = 7A1058062729389E0098419C /* nasser ali.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7A1057C927281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests */ = {
+		7A10581B272938A10098419C /* nasser aliTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A1057E127281A830098419C /* Build configuration list for PBXNativeTarget "Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests" */;
+			buildConfigurationList = 7A105833272938A10098419C /* Build configuration list for PBXNativeTarget "nasser aliTests" */;
 			buildPhases = (
-				7A1057C627281A830098419C /* Sources */,
-				7A1057C727281A830098419C /* Frameworks */,
-				7A1057C827281A830098419C /* Resources */,
+				7A105818272938A10098419C /* Sources */,
+				7A105819272938A10098419C /* Frameworks */,
+				7A10581A272938A10098419C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A1057CC27281A830098419C /* PBXTargetDependency */,
+				7A10581E272938A10098419C /* PBXTargetDependency */,
 			);
-			name = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests;
-			productName = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests;
-			productReference = 7A1057CA27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.xctest */;
+			name = "nasser aliTests";
+			productName = "nasser aliTests";
+			productReference = 7A10581C272938A10098419C /* nasser aliTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7A1057D327281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests */ = {
+		7A105825272938A10098419C /* nasser aliUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A1057E427281A830098419C /* Build configuration list for PBXNativeTarget "Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests" */;
+			buildConfigurationList = 7A105836272938A10098419C /* Build configuration list for PBXNativeTarget "nasser aliUITests" */;
 			buildPhases = (
-				7A1057D027281A830098419C /* Sources */,
-				7A1057D127281A830098419C /* Frameworks */,
-				7A1057D227281A830098419C /* Resources */,
+				7A105822272938A10098419C /* Sources */,
+				7A105823272938A10098419C /* Frameworks */,
+				7A105824272938A10098419C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A1057D627281A830098419C /* PBXTargetDependency */,
+				7A105828272938A10098419C /* PBXTargetDependency */,
 			);
-			name = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests;
-			productName = Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests;
-			productReference = 7A1057D427281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.xctest */;
+			name = "nasser aliUITests";
+			productName = "nasser aliUITests";
+			productReference = 7A105826272938A10098419C /* nasser aliUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7A1057AC27281A820098419C /* Project object */ = {
+		7A1057FE2729389E0098419C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					7A1057B327281A820098419C = {
+					7A1058052729389E0098419C = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					7A1057C927281A830098419C = {
+					7A10581B272938A10098419C = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 7A1057B327281A820098419C;
+						TestTargetID = 7A1058052729389E0098419C;
 					};
-					7A1057D327281A830098419C = {
+					7A105825272938A10098419C = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 7A1057B327281A820098419C;
+						TestTargetID = 7A1058052729389E0098419C;
 					};
 				};
 			};
-			buildConfigurationList = 7A1057AF27281A820098419C /* Build configuration list for PBXProject "Nasser_Aseeri_Lab14_Protocols_PeaceOfCake" */;
+			buildConfigurationList = 7A1058012729389E0098419C /* Build configuration list for PBXProject "nasser ali" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 7A1057AB27281A820098419C;
-			productRefGroup = 7A1057B527281A820098419C /* Products */;
+			mainGroup = 7A1057FD2729389E0098419C;
+			productRefGroup = 7A1058072729389E0098419C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A1057B327281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake */,
-				7A1057C927281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests */,
-				7A1057D327281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests */,
+				7A1058052729389E0098419C /* nasser ali */,
+				7A10581B272938A10098419C /* nasser aliTests */,
+				7A105825272938A10098419C /* nasser aliUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A1057B227281A820098419C /* Resources */ = {
+		7A1058042729389E0098419C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1057C427281A830098419C /* LaunchScreen.storyboard in Resources */,
-				7A1057C127281A830098419C /* Assets.xcassets in Resources */,
-				7A1057BF27281A820098419C /* Main.storyboard in Resources */,
+				7A105816272938A00098419C /* LaunchScreen.storyboard in Resources */,
+				7A105813272938A00098419C /* Assets.xcassets in Resources */,
+				7A1058112729389E0098419C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1057C827281A830098419C /* Resources */ = {
+		7A10581A272938A10098419C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1057D227281A830098419C /* Resources */ = {
+		7A105824272938A10098419C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A1057B027281A820098419C /* Sources */ = {
+		7A1058022729389E0098419C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1057BC27281A820098419C /* ViewController.swift in Sources */,
-				7A1057B827281A820098419C /* AppDelegate.swift in Sources */,
-				7A1057BA27281A820098419C /* SceneDelegate.swift in Sources */,
+				7A10580E2729389E0098419C /* ViewController.swift in Sources */,
+				7A10580A2729389E0098419C /* AppDelegate.swift in Sources */,
+				7A10580C2729389E0098419C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1057C627281A830098419C /* Sources */ = {
+		7A105818272938A10098419C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1057CF27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests.swift in Sources */,
+				7A105821272938A10098419C /* nasser_aliTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1057D027281A830098419C /* Sources */ = {
+		7A105822272938A10098419C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1057DB27281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */,
-				7A1057D927281A830098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.swift in Sources */,
+				7A10582B272938A10098419C /* nasser_aliUITests.swift in Sources */,
+				7A10582D272938A10098419C /* nasser_aliUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7A1057CC27281A830098419C /* PBXTargetDependency */ = {
+		7A10581E272938A10098419C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A1057B327281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake */;
-			targetProxy = 7A1057CB27281A830098419C /* PBXContainerItemProxy */;
+			target = 7A1058052729389E0098419C /* nasser ali */;
+			targetProxy = 7A10581D272938A10098419C /* PBXContainerItemProxy */;
 		};
-		7A1057D627281A830098419C /* PBXTargetDependency */ = {
+		7A105828272938A10098419C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A1057B327281A820098419C /* Nasser_Aseeri_Lab14_Protocols_PeaceOfCake */;
-			targetProxy = 7A1057D527281A830098419C /* PBXContainerItemProxy */;
+			target = 7A1058052729389E0098419C /* nasser ali */;
+			targetProxy = 7A105827272938A10098419C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7A1057BD27281A820098419C /* Main.storyboard */ = {
+		7A10580F2729389E0098419C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A1057BE27281A820098419C /* Base */,
+				7A1058102729389E0098419C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7A1057C227281A830098419C /* LaunchScreen.storyboard */ = {
+		7A105814272938A00098419C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A1057C327281A830098419C /* Base */,
+				7A105815272938A00098419C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7A1057DC27281A830098419C /* Debug */ = {
+		7A10582E272938A10098419C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		7A1057DD27281A830098419C /* Release */ = {
+		7A10582F272938A10098419C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +432,7 @@
 			};
 			name = Release;
 		};
-		7A1057DF27281A830098419C /* Debug */ = {
+		7A105831272938A10098419C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -441,7 +441,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NR83J734B6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake/Info.plist;
+				INFOPLIST_FILE = "nasser ali/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -452,15 +452,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.Nasser-Aseeri-Lab14-Protocols-PeaceOfCake";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.nasser-ali";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7A1057E027281A830098419C /* Release */ = {
+		7A105832272938A10098419C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -469,7 +469,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NR83J734B6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake/Info.plist;
+				INFOPLIST_FILE = "nasser ali/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -480,15 +480,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.Nasser-Aseeri-Lab14-Protocols-PeaceOfCake";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.nasser-ali";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		7A1057E227281A830098419C /* Debug */ = {
+		7A105834272938A10098419C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -504,16 +504,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.Nasser-Aseeri-Lab14-Protocols-PeaceOfCakeTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.nasser-aliTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nasser_Aseeri_Lab14_Protocols_PeaceOfCake.app/Nasser_Aseeri_Lab14_Protocols_PeaceOfCake";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nasser ali.app/nasser ali";
 			};
 			name = Debug;
 		};
-		7A1057E327281A830098419C /* Release */ = {
+		7A105835272938A10098419C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,16 +529,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.Nasser-Aseeri-Lab14-Protocols-PeaceOfCakeTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.nasser-aliTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nasser_Aseeri_Lab14_Protocols_PeaceOfCake.app/Nasser_Aseeri_Lab14_Protocols_PeaceOfCake";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nasser ali.app/nasser ali";
 			};
 			name = Release;
 		};
-		7A1057E527281A830098419C /* Debug */ = {
+		7A105837272938A10098419C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -552,16 +552,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.Nasser-Aseeri-Lab14-Protocols-PeaceOfCakeUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.nasser-aliUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake;
+				TEST_TARGET_NAME = "nasser ali";
 			};
 			name = Debug;
 		};
-		7A1057E627281A830098419C /* Release */ = {
+		7A105838272938A10098419C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -575,55 +575,55 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.Nasser-Aseeri-Lab14-Protocols-PeaceOfCakeUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.aseri.nasser-aliUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Nasser_Aseeri_Lab14_Protocols_PeaceOfCake;
+				TEST_TARGET_NAME = "nasser ali";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A1057AF27281A820098419C /* Build configuration list for PBXProject "Nasser_Aseeri_Lab14_Protocols_PeaceOfCake" */ = {
+		7A1058012729389E0098419C /* Build configuration list for PBXProject "nasser ali" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A1057DC27281A830098419C /* Debug */,
-				7A1057DD27281A830098419C /* Release */,
+				7A10582E272938A10098419C /* Debug */,
+				7A10582F272938A10098419C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A1057DE27281A830098419C /* Build configuration list for PBXNativeTarget "Nasser_Aseeri_Lab14_Protocols_PeaceOfCake" */ = {
+		7A105830272938A10098419C /* Build configuration list for PBXNativeTarget "nasser ali" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A1057DF27281A830098419C /* Debug */,
-				7A1057E027281A830098419C /* Release */,
+				7A105831272938A10098419C /* Debug */,
+				7A105832272938A10098419C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A1057E127281A830098419C /* Build configuration list for PBXNativeTarget "Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeTests" */ = {
+		7A105833272938A10098419C /* Build configuration list for PBXNativeTarget "nasser aliTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A1057E227281A830098419C /* Debug */,
-				7A1057E327281A830098419C /* Release */,
+				7A105834272938A10098419C /* Debug */,
+				7A105835272938A10098419C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A1057E427281A830098419C /* Build configuration list for PBXNativeTarget "Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests" */ = {
+		7A105836272938A10098419C /* Build configuration list for PBXNativeTarget "nasser aliUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A1057E527281A830098419C /* Debug */,
-				7A1057E627281A830098419C /* Release */,
+				7A105837272938A10098419C /* Debug */,
+				7A105838272938A10098419C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7A1057AC27281A820098419C /* Project object */;
+	rootObject = 7A1057FE2729389E0098419C /* Project object */;
 }

@@ -1,13 +1,13 @@
 //
-//  Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests.swift
-//  Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests
+//  nasser_aliUITests.swift
+//  nasser aliUITests
 //
-//  Created by Nasser Aseeri on 20/03/1443 AH.
+//  Created by Nasser Aseeri on 21/03/1443 AH.
 //
 
 import XCTest
 
-class Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests: XCTestCase {
+class nasser_aliUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

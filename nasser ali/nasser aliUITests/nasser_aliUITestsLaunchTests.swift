@@ -1,13 +1,13 @@
 //
-//  Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests.swift
-//  Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITests
+//  nasser_aliUITestsLaunchTests.swift
+//  nasser aliUITests
 //
-//  Created by Nasser Aseeri on 20/03/1443 AH.
+//  Created by Nasser Aseeri on 21/03/1443 AH.
 //
 
 import XCTest
 
-class Nasser_Aseeri_Lab14_Protocols_PeaceOfCakeUITestsLaunchTests: XCTestCase {
+class nasser_aliUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
