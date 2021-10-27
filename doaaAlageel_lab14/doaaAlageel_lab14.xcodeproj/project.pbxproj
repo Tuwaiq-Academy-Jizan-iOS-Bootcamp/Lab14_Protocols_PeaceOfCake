@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A79A40C22728937000DAC043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A40C12728937000DAC043 /* AppDelegate.swift */; };
+		A79A40C62728937000DAC043 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A79A40C42728937000DAC043 /* Main.html */; };
+		A79A40C82728937000DAC043 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A79A40C72728937000DAC043 /* Icon.png */; };
+		A79A40CA2728937000DAC043 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A79A40C92728937000DAC043 /* Style.css */; };
+		A79A40CC2728937000DAC043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A40CB2728937000DAC043 /* SceneDelegate.swift */; };
+		A79A40CE2728937000DAC043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A40CD2728937000DAC043 /* ViewController.swift */; };
+		A79A40D12728937000DAC043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79A40CF2728937000DAC043 /* LaunchScreen.storyboard */; };
+		A79A40D42728937000DAC043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79A40D22728937000DAC043 /* Main.storyboard */; };
+		A79A40E02728937200DAC043 /* doaaAlageel_lab14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A40DF2728937200DAC043 /* doaaAlageel_lab14Tests.swift */; };
+		A79A40EA2728937200DAC043 /* doaaAlageel_lab14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A40E92728937200DAC043 /* doaaAlageel_lab14UITests.swift */; };
+		A79A40EC2728937200DAC043 /* doaaAlageel_lab14UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A40EB2728937200DAC043 /* doaaAlageel_lab14UITestsLaunchTests.swift */; };
+		A79A40F22728937200DAC043 /* doaaAlageel_lab14 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A79A40F12728937200DAC043 /* doaaAlageel_lab14 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A79A40F72728937200DAC043 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A40F62728937200DAC043 /* SafariWebExtensionHandler.swift */; };
+		A79A40FA2728937200DAC043 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A79A40F92728937200DAC043 /* _locales */; };
+		A79A40FC2728937200DAC043 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A79A40FB2728937200DAC043 /* images */; };
+		A79A40FE2728937200DAC043 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A79A40FD2728937200DAC043 /* manifest.json */; };
+		A79A41002728937200DAC043 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A79A40FF2728937200DAC043 /* background.js */; };
+		A79A41022728937200DAC043 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A79A41012728937200DAC043 /* content.js */; };
+		A79A41042728937200DAC043 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A79A41032728937200DAC043 /* popup.html */; };
+		A79A41062728937200DAC043 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A79A41052728937200DAC043 /* popup.css */; };
+		A79A41082728937200DAC043 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A79A41072728937200DAC043 /* popup.js */; };
+		A79A410A2728937200DAC043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79A40D52728937200DAC043 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A79A40DC2728937200DAC043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79A40B62728937000DAC043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79A40BD2728937000DAC043;
+			remoteInfo = doaaAlageel_lab14;
+		};
+		A79A40E62728937200DAC043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79A40B62728937000DAC043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79A40BD2728937000DAC043;
+			remoteInfo = doaaAlageel_lab14;
+		};
+		A79A40F32728937200DAC043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79A40B62728937000DAC043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79A40F02728937200DAC043;
+			remoteInfo = "doaaAlageel_lab14 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A79A41102728937200DAC043 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A79A40F22728937200DAC043 /* doaaAlageel_lab14 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A79A40BE2728937000DAC043 /* doaaAlageel_lab14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doaaAlageel_lab14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79A40C12728937000DAC043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A79A40C52728937000DAC043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		A79A40C72728937000DAC043 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A79A40C92728937000DAC043 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A79A40CB2728937000DAC043 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A79A40CD2728937000DAC043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A79A40D02728937000DAC043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A79A40D32728937000DAC043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A79A40D52728937200DAC043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A79A40D62728937200DAC043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79A40DB2728937200DAC043 /* doaaAlageel_lab14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doaaAlageel_lab14Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79A40DF2728937200DAC043 /* doaaAlageel_lab14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doaaAlageel_lab14Tests.swift; sourceTree = "<group>"; };
+		A79A40E52728937200DAC043 /* doaaAlageel_lab14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doaaAlageel_lab14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79A40E92728937200DAC043 /* doaaAlageel_lab14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doaaAlageel_lab14UITests.swift; sourceTree = "<group>"; };
+		A79A40EB2728937200DAC043 /* doaaAlageel_lab14UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doaaAlageel_lab14UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A79A40F12728937200DAC043 /* doaaAlageel_lab14 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "doaaAlageel_lab14 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79A40F62728937200DAC043 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A79A40F92728937200DAC043 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		A79A40FB2728937200DAC043 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		A79A40FD2728937200DAC043 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		A79A40FF2728937200DAC043 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		A79A41012728937200DAC043 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		A79A41032728937200DAC043 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		A79A41052728937200DAC043 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		A79A41072728937200DAC043 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		A79A41092728937200DAC043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79A40BB2728937000DAC043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40D82728937200DAC043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40E22728937200DAC043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40EE2728937200DAC043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79A40B52728937000DAC043 = {
+			isa = PBXGroup;
+			children = (
+				A79A40C02728937000DAC043 /* doaaAlageel_lab14 */,
+				A79A40DE2728937200DAC043 /* doaaAlageel_lab14Tests */,
+				A79A40E82728937200DAC043 /* doaaAlageel_lab14UITests */,
+				A79A40F52728937200DAC043 /* doaaAlageel_lab14 Extension */,
+				A79A40BF2728937000DAC043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A79A40BF2728937000DAC043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79A40BE2728937000DAC043 /* doaaAlageel_lab14.app */,
+				A79A40DB2728937200DAC043 /* doaaAlageel_lab14Tests.xctest */,
+				A79A40E52728937200DAC043 /* doaaAlageel_lab14UITests.xctest */,
+				A79A40F12728937200DAC043 /* doaaAlageel_lab14 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79A40C02728937000DAC043 /* doaaAlageel_lab14 */ = {
+			isa = PBXGroup;
+			children = (
+				A79A40C12728937000DAC043 /* AppDelegate.swift */,
+				A79A40CB2728937000DAC043 /* SceneDelegate.swift */,
+				A79A40CD2728937000DAC043 /* ViewController.swift */,
+				A79A40CF2728937000DAC043 /* LaunchScreen.storyboard */,
+				A79A40D22728937000DAC043 /* Main.storyboard */,
+				A79A40D52728937200DAC043 /* Assets.xcassets */,
+				A79A40D62728937200DAC043 /* Info.plist */,
+				A79A40C32728937000DAC043 /* Resources */,
+			);
+			path = doaaAlageel_lab14;
+			sourceTree = "<group>";
+		};
+		A79A40C32728937000DAC043 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A79A40C42728937000DAC043 /* Main.html */,
+				A79A40C72728937000DAC043 /* Icon.png */,
+				A79A40C92728937000DAC043 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A79A40DE2728937200DAC043 /* doaaAlageel_lab14Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A79A40DF2728937200DAC043 /* doaaAlageel_lab14Tests.swift */,
+			);
+			path = doaaAlageel_lab14Tests;
+			sourceTree = "<group>";
+		};
+		A79A40E82728937200DAC043 /* doaaAlageel_lab14UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A79A40E92728937200DAC043 /* doaaAlageel_lab14UITests.swift */,
+				A79A40EB2728937200DAC043 /* doaaAlageel_lab14UITestsLaunchTests.swift */,
+			);
+			path = doaaAlageel_lab14UITests;
+			sourceTree = "<group>";
+		};
+		A79A40F52728937200DAC043 /* doaaAlageel_lab14 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A79A40F62728937200DAC043 /* SafariWebExtensionHandler.swift */,
+				A79A41092728937200DAC043 /* Info.plist */,
+				A79A40F82728937200DAC043 /* Resources */,
+			);
+			path = "doaaAlageel_lab14 Extension";
+			sourceTree = "<group>";
+		};
+		A79A40F82728937200DAC043 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A79A40F92728937200DAC043 /* _locales */,
+				A79A40FB2728937200DAC043 /* images */,
+				A79A40FD2728937200DAC043 /* manifest.json */,
+				A79A40FF2728937200DAC043 /* background.js */,
+				A79A41012728937200DAC043 /* content.js */,
+				A79A41032728937200DAC043 /* popup.html */,
+				A79A41052728937200DAC043 /* popup.css */,
+				A79A41072728937200DAC043 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79A40BD2728937000DAC043 /* doaaAlageel_lab14 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79A41112728937200DAC043 /* Build configuration list for PBXNativeTarget "doaaAlageel_lab14" */;
+			buildPhases = (
+				A79A40BA2728937000DAC043 /* Sources */,
+				A79A40BB2728937000DAC043 /* Frameworks */,
+				A79A40BC2728937000DAC043 /* Resources */,
+				A79A41102728937200DAC043 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79A40F42728937200DAC043 /* PBXTargetDependency */,
+			);
+			name = doaaAlageel_lab14;
+			productName = doaaAlageel_lab14;
+			productReference = A79A40BE2728937000DAC043 /* doaaAlageel_lab14.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A79A40DA2728937200DAC043 /* doaaAlageel_lab14Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79A41142728937200DAC043 /* Build configuration list for PBXNativeTarget "doaaAlageel_lab14Tests" */;
+			buildPhases = (
+				A79A40D72728937200DAC043 /* Sources */,
+				A79A40D82728937200DAC043 /* Frameworks */,
+				A79A40D92728937200DAC043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79A40DD2728937200DAC043 /* PBXTargetDependency */,
+			);
+			name = doaaAlageel_lab14Tests;
+			productName = doaaAlageel_lab14Tests;
+			productReference = A79A40DB2728937200DAC043 /* doaaAlageel_lab14Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A79A40E42728937200DAC043 /* doaaAlageel_lab14UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79A41172728937200DAC043 /* Build configuration list for PBXNativeTarget "doaaAlageel_lab14UITests" */;
+			buildPhases = (
+				A79A40E12728937200DAC043 /* Sources */,
+				A79A40E22728937200DAC043 /* Frameworks */,
+				A79A40E32728937200DAC043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79A40E72728937200DAC043 /* PBXTargetDependency */,
+			);
+			name = doaaAlageel_lab14UITests;
+			productName = doaaAlageel_lab14UITests;
+			productReference = A79A40E52728937200DAC043 /* doaaAlageel_lab14UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A79A40F02728937200DAC043 /* doaaAlageel_lab14 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79A410D2728937200DAC043 /* Build configuration list for PBXNativeTarget "doaaAlageel_lab14 Extension" */;
+			buildPhases = (
+				A79A40ED2728937200DAC043 /* Sources */,
+				A79A40EE2728937200DAC043 /* Frameworks */,
+				A79A40EF2728937200DAC043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "doaaAlageel_lab14 Extension";
+			productName = "doaaAlageel_lab14 Extension";
+			productReference = A79A40F12728937200DAC043 /* doaaAlageel_lab14 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79A40B62728937000DAC043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A79A40BD2728937000DAC043 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A79A40DA2728937200DAC043 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A79A40BD2728937000DAC043;
+					};
+					A79A40E42728937200DAC043 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A79A40BD2728937000DAC043;
+					};
+					A79A40F02728937200DAC043 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A79A40B92728937000DAC043 /* Build configuration list for PBXProject "doaaAlageel_lab14" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A79A40B52728937000DAC043;
+			productRefGroup = A79A40BF2728937000DAC043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79A40BD2728937000DAC043 /* doaaAlageel_lab14 */,
+				A79A40DA2728937200DAC043 /* doaaAlageel_lab14Tests */,
+				A79A40E42728937200DAC043 /* doaaAlageel_lab14UITests */,
+				A79A40F02728937200DAC043 /* doaaAlageel_lab14 Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79A40BC2728937000DAC043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A40C82728937000DAC043 /* Icon.png in Resources */,
+				A79A40D42728937000DAC043 /* Main.storyboard in Resources */,
+				A79A40D12728937000DAC043 /* LaunchScreen.storyboard in Resources */,
+				A79A40C62728937000DAC043 /* Main.html in Resources */,
+				A79A410A2728937200DAC043 /* Assets.xcassets in Resources */,
+				A79A40CA2728937000DAC043 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40D92728937200DAC043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40E32728937200DAC043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40EF2728937200DAC043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A41002728937200DAC043 /* background.js in Resources */,
+				A79A41062728937200DAC043 /* popup.css in Resources */,
+				A79A41042728937200DAC043 /* popup.html in Resources */,
+				A79A40FC2728937200DAC043 /* images in Resources */,
+				A79A40FE2728937200DAC043 /* manifest.json in Resources */,
+				A79A40FA2728937200DAC043 /* _locales in Resources */,
+				A79A41022728937200DAC043 /* content.js in Resources */,
+				A79A41082728937200DAC043 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79A40BA2728937000DAC043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A40CE2728937000DAC043 /* ViewController.swift in Sources */,
+				A79A40C22728937000DAC043 /* AppDelegate.swift in Sources */,
+				A79A40CC2728937000DAC043 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40D72728937200DAC043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A40E02728937200DAC043 /* doaaAlageel_lab14Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40E12728937200DAC043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A40EC2728937200DAC043 /* doaaAlageel_lab14UITestsLaunchTests.swift in Sources */,
+				A79A40EA2728937200DAC043 /* doaaAlageel_lab14UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A40ED2728937200DAC043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A40F72728937200DAC043 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A79A40DD2728937200DAC043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79A40BD2728937000DAC043 /* doaaAlageel_lab14 */;
+			targetProxy = A79A40DC2728937200DAC043 /* PBXContainerItemProxy */;
+		};
+		A79A40E72728937200DAC043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79A40BD2728937000DAC043 /* doaaAlageel_lab14 */;
+			targetProxy = A79A40E62728937200DAC043 /* PBXContainerItemProxy */;
+		};
+		A79A40F42728937200DAC043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79A40F02728937200DAC043 /* doaaAlageel_lab14 Extension */;
+			targetProxy = A79A40F32728937200DAC043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A79A40C42728937000DAC043 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79A40C52728937000DAC043 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A79A40CF2728937000DAC043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79A40D02728937000DAC043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A79A40D22728937000DAC043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79A40D32728937000DAC043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A79A410B2728937200DAC043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A79A410C2728937200DAC043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A79A410E2728937200DAC043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "doaaAlageel_lab14 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "doaaAlageel_lab14 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doaa.doaaAlageel-lab14.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A79A410F2728937200DAC043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "doaaAlageel_lab14 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "doaaAlageel_lab14 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doaa.doaaAlageel-lab14.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A79A41122728937200DAC043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = doaaAlageel_lab14/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = doaaAlageel_lab14;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doaa.doaaAlageel-lab14";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A79A41132728937200DAC043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = doaaAlageel_lab14/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = doaaAlageel_lab14;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doaa.doaaAlageel-lab14";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A79A41152728937200DAC043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "doaa.doaaAlageel-lab14Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doaaAlageel_lab14.app/doaaAlageel_lab14";
+			};
+			name = Debug;
+		};
+		A79A41162728937200DAC043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "doaa.doaaAlageel-lab14Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doaaAlageel_lab14.app/doaaAlageel_lab14";
+			};
+			name = Release;
+		};
+		A79A41182728937200DAC043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "doaa.doaaAlageel-lab14UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = doaaAlageel_lab14;
+			};
+			name = Debug;
+		};
+		A79A41192728937200DAC043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "doaa.doaaAlageel-lab14UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = doaaAlageel_lab14;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79A40B92728937000DAC043 /* Build configuration list for PBXProject "doaaAlageel_lab14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A410B2728937200DAC043 /* Debug */,
+				A79A410C2728937200DAC043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79A410D2728937200DAC043 /* Build configuration list for PBXNativeTarget "doaaAlageel_lab14 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A410E2728937200DAC043 /* Debug */,
+				A79A410F2728937200DAC043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79A41112728937200DAC043 /* Build configuration list for PBXNativeTarget "doaaAlageel_lab14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A41122728937200DAC043 /* Debug */,
+				A79A41132728937200DAC043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79A41142728937200DAC043 /* Build configuration list for PBXNativeTarget "doaaAlageel_lab14Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A41152728937200DAC043 /* Debug */,
+				A79A41162728937200DAC043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79A41172728937200DAC043 /* Build configuration list for PBXNativeTarget "doaaAlageel_lab14UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A41182728937200DAC043 /* Debug */,
+				A79A41192728937200DAC043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79A40B62728937000DAC043 /* Project object */;
+}
