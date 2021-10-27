@@ -61,7 +61,7 @@ import UIKit
  class butter:DairyProduct{
 
  }
- class Apple:DairyProduct{
+ class Apple:FruitProduct{
 
  }
 
