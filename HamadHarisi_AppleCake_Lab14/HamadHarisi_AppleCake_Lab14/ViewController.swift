@@ -1,95 +1,87 @@
-//
 //  ViewController.swift
 //  HamadHarisi_AppleCake_Lab14
-//
 //  Created by حمد الحريصي on 26/10/2021.
-//
 import UIKit
-
-
 protocol Ingredient
 {
-    var name:String    { get     }
-    var number:Int     { get set }
-    //func description()
+var name:String    { get     }
+var number:Int     { get set }
+func description()
 }
 class DairyProdect
 {
-    
 }
 class Milk: DairyProdect , Ingredient
 {
-    var name: String
-    var number: Int
+var name: String
+var number: Int
     
-    init(name:String , number:Int)
-    {
-    self.name = name
-    self.number = number
-    }
-//    func description()
-//    {
-//    print("thr ejfvlerrnbigrb")
-//    }
+init(name:String , number:Int)
+{
+self.name = name
+self.number = number
+}
+func description()
+{
+print("thr ejfvlerrnbigrb")
+}
 }
 class Butter: DairyProdect , Ingredient
 {
-    var name: String
-    var number: Int
+var name: String
+var number: Int
     
-    init(name: String , number:Int)
-    {
-    self.name = name
-    self.number = number
-    }
-//    func description()
-//    {
-//      print("hgjdsfhgkjdfhgkdf")
-//    }
-    
+init(name: String , number:Int)
+{
+self.name = name
+self.number = number
+}
+func description()
+{
+print("hgjdsfhgkjdfhgkdf")
+}
 }
 class FruitProduct
 {
-//    func Description()
-//    {
-//        print("tyjtryjtyjytu")
-//    }
-}
-    class Apple: FruitProduct , Ingredient
+func Description()
 {
-    var name: String
-    var number: Int
-    init(name: String, number: Int)
-    {
-    self.name = name
-    self.number = number
-    }
-//    func description()
-//    {
-//    print("jhgdkjghjh")
-//    }
-//
+print("tyjtryjtyjytu")
+}
+}
+class Apple: FruitProduct , Ingredient
+{
+var name: String
+var number: Int
+init(name: String, number: Int)
+{
+self.name = name
+self.number = number
+}
+func description()
+{
+print("jhgdkjghjh")
+}
 }
 class OtherProduct
 {
 }
-//    func discribeOtherProduct()
-//    {
-//    print("tyhjtrjrtyhjjyhjy")
-//    }
-    class Eggs: OtherProduct, Ingredient
-    {
-    var name: String
-    var number: Int
-    init(name: String, number: Int)
-    {
-    self.name = name
+func discribeOtherProduct()
+{
+print("tyhjtrjrtyhjjyhjy")
+}
+class Eggs: OtherProduct, Ingredient
+{
+var name: String
+var number: Int
+init(name: String, number: Int)
+{
+self.name = name
     self.number = number
     }
-//    func description()
-//    {
-//    print("thgjhdfkjd")
-//    }
+    func description()
+    {
+    print("thgjhdfkjd")
+    }
     
     
 }
@@ -102,10 +94,10 @@ class Sugar:OtherProduct , Ingredient
     self.name = name
     self.number = number
     }
-//    func description()
-//    {
-//    print("jghdjghnkdfg")
-//    }
+    func description()
+    {
+    print("jghdjghnkdfg")
+    }
     
 }
 class Flour:OtherProduct , Ingredient
@@ -118,52 +110,28 @@ class Flour:OtherProduct , Ingredient
     self.name = name
     self.number = number
     }
-//    func description()
-//    {
-//    print("gjhdkfgjbndkg")
-//    }
+    func description()
+    {
+    print("gjhdkfgjbndkg")
+    }
 }
 class ExtractVanillia: OtherProduct , Ingredient
+{
+    func description()
     {
+    print("gjhdkfgjbndkg")
+    }
+    
  
     var name: String
     var number: Int
     
     init(name: String, number: Int)
     {
-        self.name = name
-        self.number = number
+    self.name = name
+    self.number = number
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class ViewController: UIViewController
 {
 override func viewDidLoad()
@@ -184,12 +152,11 @@ super.viewDidLoad()
         {
         for index in 0...6
         {
-        print("\(fromArray[index].name)")
-        print("\(fromArray[index].number)")
+        print("now you can but \(fromArray[index].name) in the bowl")
+        print(" but \(fromArray[index].number) pesies ")
+        print("after we mix our prodect now we can but them in the oven")
         }
-            
         }
         oven(fromArray: bowl.shuffled())
         }
-        
         }
