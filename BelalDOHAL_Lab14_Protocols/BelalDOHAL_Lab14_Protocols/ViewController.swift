@@ -1,10 +1,11 @@
 import UIKit
-
+//------------------------// Cake Protocol //
 protocol RespectTheCake {
     var name:String {get}
     var number:Int {get set}
     var descreption:String {get set}
 }
+//------------------------// Class Dairy Product //
 class DairyProduct: RespectTheCake{
     var name: String
     var number: Int
@@ -15,6 +16,7 @@ class DairyProduct: RespectTheCake{
         self.descreption = descreption
     }
 }
+//------------------------// Class Fruit Product //
 class FruitProduct: RespectTheCake{
     var name: String
     var number: Int
@@ -25,7 +27,8 @@ class FruitProduct: RespectTheCake{
         self.descreption = descreption
     }
 }
-class Otherproduct: RespectTheCake {
+//------------------------// Class Other Product //
+class OtherProduct: RespectTheCake {
     var name:String
     var number:Int
     var descreption:String
@@ -36,22 +39,27 @@ class Otherproduct: RespectTheCake {
     }
 }
 class ViewController: UIViewController {
-    var butter = DairyProduct.init(name: "Butter", number: 1, descreption: "Unsalted Butter")
-    var milk = DairyProduct.init(name: "Milk", number: 1, descreption: "Cow milk")
-    var apples = FruitProduct.init(name: "Apple", number: 2, descreption: "Peeled and sliced Apples")
-    var eggs = Otherproduct.init(name: "Egg", number: 2, descreption: "Chicken eggs")
-    var sugar = Otherproduct.init(name: "Sugar", number: 1, descreption: "Cup of Sugar")
-    var flour = Otherproduct.init(name: "Flour", number: 2, descreption: "Cups of wheat flour")
-    var vanillia = Otherproduct.init(name: "Vanillia Extract", number: 1, descreption: "Tablespoone of Vanillia extract")
+//------------------------// Dairy Product //
+    var butter = DairyProduct(name: "Butter", number: 1, descreption: "Unsalted Butter")
+    var milk = DairyProduct(name: "Milk", number: 1, descreption: "Cow milk")
+//------------------------// Fruit Product //
+    var apples = FruitProduct(name: "Apple", number: 2, descreption: "Peeled and sliced Apples")
+//------------------------// Other Product //
+    var eggs = OtherProduct(name: "Egg", number: 2, descreption: "Chicken eggs")
+    var sugar = OtherProduct(name: "Sugar", number: 1, descreption: "Cup of Sugar")
+    var flour = OtherProduct(name: "Flour", number: 2, descreption: "Cups of wheat flour")
+    var vanillia = OtherProduct(name: "Vanillia Extract", number: 1, descreption: "Tablespoone of Vanillia extract")
     override func viewDidLoad() {
         super.viewDidLoad()
+//------------------------// Bowl //
         let bowl: [RespectTheCake] = [butter,milk,apples,eggs,sugar,flour,vanillia]
+//------------------------// Function Of Oven //
         func oven(array: [RespectTheCake]){
-            for index in 0..<bowl.count {
+            for index in 0..<array.count {
                 print("\(array[index].name)")
             }
         }
+//------------------------// Bowl In The Oven //
         oven(array: bowl.shuffled())
     }
-}
-
+}// E.Z.P.Z 👌🏽
