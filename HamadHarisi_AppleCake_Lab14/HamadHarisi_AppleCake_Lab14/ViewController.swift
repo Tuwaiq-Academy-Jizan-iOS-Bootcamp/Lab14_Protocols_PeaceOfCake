@@ -15,23 +15,22 @@ protocol Ingredient
 }
 class DairyProdect
 {
+    
 }
 class Milk: DairyProdect , Ingredient
 {
     var name: String
-    
     var number: Int
+    
     init(name:String , number:Int)
     {
-        self.name = name
-        self.number = number
+    self.name = name
+    self.number = number
     }
 //    func description()
 //    {
 //    print("thr ejfvlerrnbigrb")
 //    }
-    
-    
 }
 class Butter: DairyProdect , Ingredient
 {
@@ -40,8 +39,8 @@ class Butter: DairyProdect , Ingredient
     
     init(name: String , number:Int)
     {
-        self.name = name
-        self.number = number
+    self.name = name
+    self.number = number
     }
 //    func description()
 //    {
@@ -73,6 +72,7 @@ class FruitProduct
 }
 class OtherProduct
 {
+}
 //    func discribeOtherProduct()
 //    {
 //    print("tyhjtrjrtyhjjyhjy")
@@ -86,10 +86,10 @@ class OtherProduct
     self.name = name
     self.number = number
     }
-    func description()
-    {
-    print("thgjhdfkjd")
-    }
+//    func description()
+//    {
+//    print("thgjhdfkjd")
+//    }
     
     
 }
@@ -135,6 +135,7 @@ class ExtractVanillia: OtherProduct , Ingredient
         self.number = number
     }
 
+}
 
 
 
@@ -163,31 +164,32 @@ class ExtractVanillia: OtherProduct , Ingredient
 
 
 
-
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+class ViewController: UIViewController
+{
+override func viewDidLoad()
+{
+super.viewDidLoad()
         
+    let milkForCake            = Milk           (name: "milk",            number: 4  )
+    let butterForCake          = Butter         (name: "butter",          number: 5  )
+    let appleForCake           = Apple          (name: "apple",           number: 10 )
+    let eggsForCake            = Eggs           (name: "eggs",            number: 50 )
+    let sugarForCake           = Sugar          (name: "suger",           number: 1  )
+    let flourForCake           = Flour          (name: "flour",           number: 8  )
+    let extractVanilliaForCake = ExtractVanillia(name: "extractVanillia", number: 3  )
+    
+    let bowl: [Ingredient] = [milkForCake,butterForCake, appleForCake , eggsForCake ,sugarForCake , flourForCake ,  extractVanilliaForCake ]
         
-        let milkForCake            = Milk           (name: "milk",            number: 4  )
-        let butterForCake          = Butter         (name: "butter",          number: 5  )
-        let appleForCake           = Apple          (name: "apple",           number: 10 )
-        let eggsForCake            = Eggs           (name: "eggs",            number: 50 )
-        let sugarForCake           = Sugar          (name: "suger",           number: 1  )
-        let flourForCake           = Flour          (name: "flour",           number: 8  )
-        let extractVanilliaForCake = ExtractVanillia(name: "extractVanillia", number: 3  )
-        
-        
-        
-        let bowl: [Ingredient] = [milkForCake,butterForCake, appleForCake , eggsForCake ,sugarForCake , flourForCake ,  extractVanilliaForCake ]
-    func oven (fromArray: [Ingredient]) {
-         for index in 0...6 {
-         print("\(fromArray[index].name)")
-         }
-    }
+        func oven (fromArray: [Ingredient])
+        {
+        for index in 0...6
+        {
+        print("\(fromArray[index].name)")
+        print("\(fromArray[index].number)")
+        }
+            
+        }
         oven(fromArray: bowl.shuffled())
-}
-}
-}
-}
+        }
+        
+        }
