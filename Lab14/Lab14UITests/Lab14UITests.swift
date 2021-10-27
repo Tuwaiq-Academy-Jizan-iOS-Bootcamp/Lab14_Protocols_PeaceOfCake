@@ -1,13 +1,13 @@
 //
-//  DimitriSMITH_Lab14_Protocol_PeaceOfCakeUITests.swift
-//  DimitriSMITH_Lab14_Protocol_PeaceOfCakeUITests
+//  Lab14UITests.swift
+//  Lab14UITests
 //
-//  Created by Dimitri SMITH on 26/10/2021.
+//  Created by Ahlam Ahlam on 20/03/1443 AH.
 //
 
 import XCTest
 
-class DimitriSMITH_Lab14_Protocol_PeaceOfCakeUITests: XCTestCase {
+class Lab14UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
