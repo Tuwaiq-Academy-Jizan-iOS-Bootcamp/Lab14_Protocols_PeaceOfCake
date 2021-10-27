@@ -138,25 +138,24 @@ override func viewDidLoad()
 {
 super.viewDidLoad()
         
-    let milkForCake            = Milk           (name: "milk",            number: 4  )
-    let butterForCake          = Butter         (name: "butter",          number: 5  )
-    let appleForCake           = Apple          (name: "apple",           number: 10 )
-    let eggsForCake            = Eggs           (name: "eggs",            number: 50 )
-    let sugarForCake           = Sugar          (name: "suger",           number: 1  )
-    let flourForCake           = Flour          (name: "flour",           number: 8  )
-    let extractVanilliaForCake = ExtractVanillia(name: "extractVanillia", number: 3  )
+    let milkForCake            = Milk           (name: "milk 🥛 ",            number: 4  )
+    let butterForCake          = Butter         (name: "butter 🧈 ",          number: 5  )
+    let appleForCake           = Apple          (name: "apple 🍎 ",           number: 10 )
+    let eggsForCake            = Eggs           (name: "eggs 🥚 ",            number: 50 )
+    let sugarForCake           = Sugar          (name: "suger 🍥 ",           number: 1  )
+    let flourForCake           = Flour          (name: "flour 🍞 ",           number: 8  )
+    let extractVanilliaForCake = ExtractVanillia(name: "extractVanillia 🍦 ", number: 3  )
     
     let bowl: [Ingredient] = [milkForCake,butterForCake, appleForCake , eggsForCake ,sugarForCake , flourForCake ,  extractVanilliaForCake ]
-        
         func oven (fromArray: [Ingredient])
         {
         for index in 0...6
-        {
-        print("now you can but \(fromArray[index].name) in the bowl")
-        print(" but \(fromArray[index].number) pesies ")
-        print("after we mix our prodect now we can but them in the oven")
-        }
+        { print(" Put \(fromArray[index].number) pieces of \(fromArray[index].name) in the bowl") }
         }
         oven(fromArray: bowl.shuffled())
+    
+    print("After mixing the ingredients, put them in the oven  🌋 ")
+    print("Then you will get a AplleCake  🥧 ")
         }
         }
+
