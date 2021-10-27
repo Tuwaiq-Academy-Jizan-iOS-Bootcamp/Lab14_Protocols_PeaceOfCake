@@ -1,13 +1,13 @@
 //
-//  Lab14UITests.swift
-//  Lab14UITests
+//  Lab14CakeUITests.swift
+//  Lab14CakeUITests
 //
-//  Created by Ahlam Ahlam on 20/03/1443 AH.
+//  Created by Ahlam Ahlam on 21/03/1443 AH.
 //
 
 import XCTest
 
-class Lab14UITests: XCTestCase {
+class Lab14CakeUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

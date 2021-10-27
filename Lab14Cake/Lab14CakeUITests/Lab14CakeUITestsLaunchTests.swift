@@ -1,13 +1,13 @@
 //
-//  Lab14UITestsLaunchTests.swift
-//  Lab14UITests
+//  Lab14CakeUITestsLaunchTests.swift
+//  Lab14CakeUITests
 //
-//  Created by Ahlam Ahlam on 20/03/1443 AH.
+//  Created by Ahlam Ahlam on 21/03/1443 AH.
 //
 
 import XCTest
 
-class Lab14UITestsLaunchTests: XCTestCase {
+class Lab14CakeUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
