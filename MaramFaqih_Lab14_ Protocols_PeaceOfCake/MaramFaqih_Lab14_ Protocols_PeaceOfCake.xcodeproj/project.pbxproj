@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE87D58B27281AA90067FBA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D58A27281AA90067FBA4 /* AppDelegate.swift */; };
+		EE87D58D27281AA90067FBA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D58C27281AA90067FBA4 /* SceneDelegate.swift */; };
+		EE87D58F27281AA90067FBA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D58E27281AA90067FBA4 /* ViewController.swift */; };
+		EE87D59227281AA90067FBA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE87D59027281AA90067FBA4 /* Main.storyboard */; };
+		EE87D59427281AAC0067FBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE87D59327281AAC0067FBA4 /* Assets.xcassets */; };
+		EE87D59727281AAC0067FBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE87D59527281AAC0067FBA4 /* LaunchScreen.storyboard */; };
+		EE87D5A227281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D5A127281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeTests.swift */; };
+		EE87D5AC27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D5AB27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITests.swift */; };
+		EE87D5AE27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D5AD27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE87D59E27281AAC0067FBA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE87D57F27281AA90067FBA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE87D58627281AA90067FBA4;
+			remoteInfo = "MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+		};
+		EE87D5A827281AAC0067FBA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE87D57F27281AA90067FBA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE87D58627281AA90067FBA4;
+			remoteInfo = "MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE87D58727281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MaramFaqih_Lab14_ Protocols_PeaceOfCake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE87D58A27281AA90067FBA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE87D58C27281AA90067FBA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE87D58E27281AA90067FBA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE87D59127281AA90067FBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE87D59327281AAC0067FBA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE87D59627281AAC0067FBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE87D59827281AAC0067FBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE87D59D27281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE87D5A127281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaramFaqih_Lab14__Protocols_PeaceOfCakeTests.swift; sourceTree = "<group>"; };
+		EE87D5A727281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE87D5AB27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaramFaqih_Lab14__Protocols_PeaceOfCakeUITests.swift; sourceTree = "<group>"; };
+		EE87D5AD27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaramFaqih_Lab14__Protocols_PeaceOfCakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE87D58427281AA90067FBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87D59A27281AAC0067FBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87D5A427281AAC0067FBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE87D57E27281AA90067FBA4 = {
+			isa = PBXGroup;
+			children = (
+				EE87D58927281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake */,
+				EE87D5A027281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests */,
+				EE87D5AA27281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests */,
+				EE87D58827281AA90067FBA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE87D58827281AA90067FBA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D58727281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake.app */,
+				EE87D59D27281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests.xctest */,
+				EE87D5A727281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE87D58927281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D58A27281AA90067FBA4 /* AppDelegate.swift */,
+				EE87D58C27281AA90067FBA4 /* SceneDelegate.swift */,
+				EE87D58E27281AA90067FBA4 /* ViewController.swift */,
+				EE87D59027281AA90067FBA4 /* Main.storyboard */,
+				EE87D59327281AAC0067FBA4 /* Assets.xcassets */,
+				EE87D59527281AAC0067FBA4 /* LaunchScreen.storyboard */,
+				EE87D59827281AAC0067FBA4 /* Info.plist */,
+			);
+			path = "MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+			sourceTree = "<group>";
+		};
+		EE87D5A027281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D5A127281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeTests.swift */,
+			);
+			path = "MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests";
+			sourceTree = "<group>";
+		};
+		EE87D5AA27281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D5AB27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITests.swift */,
+				EE87D5AD27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITestsLaunchTests.swift */,
+			);
+			path = "MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE87D58627281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE87D5B127281AAC0067FBA4 /* Build configuration list for PBXNativeTarget "MaramFaqih_Lab14_ Protocols_PeaceOfCake" */;
+			buildPhases = (
+				EE87D58327281AA90067FBA4 /* Sources */,
+				EE87D58427281AA90067FBA4 /* Frameworks */,
+				EE87D58527281AA90067FBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+			productName = "MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+			productReference = EE87D58727281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE87D59C27281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE87D5B427281AAC0067FBA4 /* Build configuration list for PBXNativeTarget "MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests" */;
+			buildPhases = (
+				EE87D59927281AAC0067FBA4 /* Sources */,
+				EE87D59A27281AAC0067FBA4 /* Frameworks */,
+				EE87D59B27281AAC0067FBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE87D59F27281AAC0067FBA4 /* PBXTargetDependency */,
+			);
+			name = "MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests";
+			productName = "MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests";
+			productReference = EE87D59D27281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE87D5A627281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE87D5B727281AAC0067FBA4 /* Build configuration list for PBXNativeTarget "MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests" */;
+			buildPhases = (
+				EE87D5A327281AAC0067FBA4 /* Sources */,
+				EE87D5A427281AAC0067FBA4 /* Frameworks */,
+				EE87D5A527281AAC0067FBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE87D5A927281AAC0067FBA4 /* PBXTargetDependency */,
+			);
+			name = "MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests";
+			productName = "MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests";
+			productReference = EE87D5A727281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE87D57F27281AA90067FBA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EE87D58627281AA90067FBA4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EE87D59C27281AAC0067FBA4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EE87D58627281AA90067FBA4;
+					};
+					EE87D5A627281AAC0067FBA4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EE87D58627281AA90067FBA4;
+					};
+				};
+			};
+			buildConfigurationList = EE87D58227281AA90067FBA4 /* Build configuration list for PBXProject "MaramFaqih_Lab14_ Protocols_PeaceOfCake" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE87D57E27281AA90067FBA4;
+			productRefGroup = EE87D58827281AA90067FBA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE87D58627281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake */,
+				EE87D59C27281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests */,
+				EE87D5A627281AAC0067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE87D58527281AA90067FBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87D59727281AAC0067FBA4 /* LaunchScreen.storyboard in Resources */,
+				EE87D59427281AAC0067FBA4 /* Assets.xcassets in Resources */,
+				EE87D59227281AA90067FBA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87D59B27281AAC0067FBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87D5A527281AAC0067FBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE87D58327281AA90067FBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87D58F27281AA90067FBA4 /* ViewController.swift in Sources */,
+				EE87D58B27281AA90067FBA4 /* AppDelegate.swift in Sources */,
+				EE87D58D27281AA90067FBA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87D59927281AAC0067FBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87D5A227281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87D5A327281AAC0067FBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87D5AE27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITestsLaunchTests.swift in Sources */,
+				EE87D5AC27281AAC0067FBA4 /* MaramFaqih_Lab14__Protocols_PeaceOfCakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE87D59F27281AAC0067FBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE87D58627281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake */;
+			targetProxy = EE87D59E27281AAC0067FBA4 /* PBXContainerItemProxy */;
+		};
+		EE87D5A927281AAC0067FBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE87D58627281AA90067FBA4 /* MaramFaqih_Lab14_ Protocols_PeaceOfCake */;
+			targetProxy = EE87D5A827281AAC0067FBA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE87D59027281AA90067FBA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE87D59127281AA90067FBA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE87D59527281AAC0067FBA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE87D59627281AAC0067FBA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE87D5AF27281AAC0067FBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE87D5B027281AAC0067FBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE87D5B227281AAC0067FBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72X8293LK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MaramFaqih_Lab14_ Protocols_PeaceOfCake/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.MaramFaqih-Lab14--Protocols-PeaceOfCake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE87D5B327281AAC0067FBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72X8293LK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MaramFaqih_Lab14_ Protocols_PeaceOfCake/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.MaramFaqih-Lab14--Protocols-PeaceOfCake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE87D5B527281AAC0067FBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72X8293LK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.MaramFaqih-Lab14--Protocols-PeaceOfCakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaramFaqih_Lab14_ Protocols_PeaceOfCake.app/MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+			};
+			name = Debug;
+		};
+		EE87D5B627281AAC0067FBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72X8293LK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.MaramFaqih-Lab14--Protocols-PeaceOfCakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaramFaqih_Lab14_ Protocols_PeaceOfCake.app/MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+			};
+			name = Release;
+		};
+		EE87D5B827281AAC0067FBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72X8293LK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.MaramFaqih-Lab14--Protocols-PeaceOfCakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+			};
+			name = Debug;
+		};
+		EE87D5B927281AAC0067FBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72X8293LK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.MaramFaqih-Lab14--Protocols-PeaceOfCakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MaramFaqih_Lab14_ Protocols_PeaceOfCake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE87D58227281AA90067FBA4 /* Build configuration list for PBXProject "MaramFaqih_Lab14_ Protocols_PeaceOfCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87D5AF27281AAC0067FBA4 /* Debug */,
+				EE87D5B027281AAC0067FBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE87D5B127281AAC0067FBA4 /* Build configuration list for PBXNativeTarget "MaramFaqih_Lab14_ Protocols_PeaceOfCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87D5B227281AAC0067FBA4 /* Debug */,
+				EE87D5B327281AAC0067FBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE87D5B427281AAC0067FBA4 /* Build configuration list for PBXNativeTarget "MaramFaqih_Lab14_ Protocols_PeaceOfCakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87D5B527281AAC0067FBA4 /* Debug */,
+				EE87D5B627281AAC0067FBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE87D5B727281AAC0067FBA4 /* Build configuration list for PBXNativeTarget "MaramFaqih_Lab14_ Protocols_PeaceOfCakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87D5B827281AAC0067FBA4 /* Debug */,
+				EE87D5B927281AAC0067FBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE87D57F27281AA90067FBA4 /* Project object */;
+}
